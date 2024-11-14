@@ -21,11 +21,11 @@
                         </div>
                         <div class="portfolio-details">
                             <div class="media-left">
-                                <ul class="portfolio-meta">
+                                {{-- <ul class="portfolio-meta">
                                     @foreach ( $portfolioCat as $cat)
                                     <li><a href="blog.html">{{ $cat->portfolio_category_name }}</a></li>
                                     @endforeach
-                                </ul>
+                                </ul> --}}
 
                                     <h3 class="portfolio-title"><a href="{{ route('banner.details',$item->id) }}">{{ $item->banner_name  }}</a></h3>
 

@@ -5840,7 +5840,7 @@ ul.wp-block-latest-posts li:last-child {
   position: relative;
   z-index: auto;
   background: var(--smoke-color);
-  margin-top: 106px;
+  /* margin-top: 106px; */
   text-align: center;
   /* Small devices */
 }

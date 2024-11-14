@@ -193,9 +193,15 @@ Route::controller(FrontContactController::class)->group(function(){
     Route::get('/banner/details/{id}', 'BannerDetail')->name('banner.details');
     Route::get('/contact/us', 'ContactUs')->name('contact.us');
     Route::get('/about/us', 'AboutUs')->name('about.us');
+    Route::get('/we/do', 'we_do')->name('we.do');
+    Route::get('/portfolio', 'portfolio')->name('portfolio');
     Route::get('/portfolio/details/{id}', 'PortfolioDetails')->name('portfolio.details');
     });
 // Portfolio all route end
 
 
 
+
+// Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

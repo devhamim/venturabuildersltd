@@ -33,9 +33,13 @@ class FrontContactController extends Controller
         return view('Frontend_template/AboutUs/about',compact('aboutViews'));
     }
 
-    public function PortfolioDetails(){
+    public function we_do(){
 
-        $portfolioDetails = PortfolioCategory::all();
-        return view('Frontend_template/Portfolio/portfolio_details',compact('portfolioDetails'));
+        return view('Frontend_template/Wedo/wedo');
+    }
+
+    public function portfolio(){
+
+        return view('Frontend_template/Portfolio/portfolio_details');
     }
 }
